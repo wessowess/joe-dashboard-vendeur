@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px)
+{
+	#main > .row > .col-md-3 
+	{
+		display: none;
+	}
+	#main > .row > .col-md-9 
+	{
+		display: block;
+	}
+}

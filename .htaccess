@@ -1,0 +1,12 @@
+# Redirect incoming URLs to index.php
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+    RewriteRule ^accueil$ index.php [L]
+    RewriteRule ^missions$ index.php [L]
+    RewriteRule ^planning$ index.php [L]
+    RewriteRule ^documents$ index.php [L]
+    RewriteRule ^gains$ index.php [L]
+    RewriteRule ^compte$ index.php [L]
+    RewriteRule ^contact$ index.php [L]
+</IfModule>
